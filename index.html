@@ -16,11 +16,27 @@
     <div class="card px-mb-3 mx-auto" style="width: 75rem;">
         <div class="card-body">
             <h5 class="card-title d-flex justify-content-around">Code Quiz</h5>
-            
-            <p class="card-text d-flex justify-content-around">You have 15 seconds to answer each question.</p>
+             <p class="card-text d-flex justify-content-around">You have 15 seconds to answer each question.</p>
             <p class="card-text d-flex justify-content-around">Have fun!</p>
-            <div class="d-flex justify-content-center">
-                <button type="button1" class="btn btn-warning btn-lg">Start</button>
+            
+            <div id="question-container" class="hide"></div>
+            <div class="controls">
+            <div id="questions">Questions</div>
+            <div id="answer-questions" class="btn-grid"></div>
+                <button class="btn">Answer 1</button>
+                <button class="btn">Answer 2</button>
+                <button class="btn">Answer 3</button>
+                <button class="btn">Answer 4</button>
+
+            <div class="d-flex justify-content-center ">
+                <button type="start-btn" class="btn btn-warning btn-lg">Start</button>
+                
+                <button type="next-btn" class="btn btn-warning btn-lg">Next</button>
+            
+            </div>
+           
+               
+            </div>
             </div>
         </div>
       </div>

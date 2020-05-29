@@ -1,4 +1,4 @@
-// list of all questions, choices, and answers
+// list of questions, choices, and answers
 var quizQuestions = [
     {
       title: "for (var i = 0; i < letter.lenght; i++); is an example of what?",
