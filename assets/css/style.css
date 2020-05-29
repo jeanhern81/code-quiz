@@ -1,10 +1,10 @@
 body {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     background-color: rgb(173, 212, 212);
     margin-top: 15px;
-    padding-left: center;
+    
 }
 
 #card {
     margin-left: auto;
 }
-#jumbotron
