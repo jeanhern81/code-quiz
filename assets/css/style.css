@@ -4,6 +4,13 @@
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
+:root {
+    --hue-neutral: 200;
+    --hue-wrong: 0;
+    --hue-correct: 145;
+}
+
+
 /* body */
 body {
 background-color: rgb(99, 168, 168);
@@ -37,6 +44,15 @@ align-items: center;
     background-color: rgb(247, 214, 192);
     border: 1px solid;
 
+}
+
+.btn.correct {
+    --hue: var(--hue-correct);
+
+}
+
+.btn.wrong {
+    --hue: var(--hue-wrong);
 }
 
 .start-btn, .next-btn {
