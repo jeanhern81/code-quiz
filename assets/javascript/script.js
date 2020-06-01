@@ -95,12 +95,27 @@ const questions = [
 },
 
 {
-question: 'Alerts, prompts, and confirms are an exmaple of?',
-answers: [
+    question: 'Alerts, prompts, and confirms are an exmaple of?',
+    answers: [
     { text:'JavaScript Popup Boxes', correct: true },
     { text: 'Console.Log', correct: false },
     { text: 'For Loops', correct: false},
     { text: 'Math.random', correct: false},
     ]
 },
+
+{
+    question: "An array is closed in:",
+    answers: [
+        { text: 'Parantheses', correct: false },
+        { text: 'Curly Braces', correct: false },
+        { text: 'Square Brackets', correct: true },
+        { text: 'Backward Slashes', correct: false },
+        
+    ]
+
+},
+
+
 ]
+
