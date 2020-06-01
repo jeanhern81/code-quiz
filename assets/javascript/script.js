@@ -42,8 +42,6 @@ function showQuestion(question) {
         button.addEventListener('click', selectAnswer)
         answerButtonsElement.appendChild(button)
     })
-
-
 }
 
 function resetState() {
@@ -72,7 +70,7 @@ function selectAnswer(e) {
         clearStatusClass(element)
             if (correct) {
                 element.classList.add('correct')
-            }else {
+            } else {
                 element.classList.add('wrong')
             }
         }
