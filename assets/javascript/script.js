@@ -8,6 +8,7 @@ const answerButtonsElement = document.getElementById('answer-buttons')
 let shuffledQuestions, currentQuestionIndex
 
 startButton.addEventListener('click', startQuiz)
+
 nextButton.addEventListener('click', () => {
     currentQuestionIndex++
     setNextQuestion()

@@ -8,7 +8,7 @@ Date: May 29, 2020
 Website: https://jeanhern81.github.io/code-quiz/
 ---
 
-![Screenshot](assets/images/screenshot.JPG)
+![Screenshot](./assets/images/screenshot.JPG)
 
 ---
 Instructions:
