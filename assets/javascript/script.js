@@ -113,7 +113,24 @@ const questions = [
     ]
 
 },
-
-
 ]
 
+var timeEl = document.querySelector(".time");
+var mainEl = document.getElementById("main");
+var secondsLeft = 31;
+function setTime() {
+var timerInterval = setInterval(function() {
+    secondsLeft--;
+    timeEl.textContent = secondsLeft + " Time\'s running out!";
+    if(secondsLeft === 0) {
+    clearInterval(timerInterval);
+    sendMessage();
+    }
+}, 1000);
+}
+function sendMessage() {
+    timeEl.textContent = "Time\'s Up! ";
+    var t = document.createTextNode("");
+    mainEl.appendChild(createTextNode);
+}
+setTime();
