@@ -117,7 +117,7 @@ const questions = [
 
 var timeEl = document.querySelector(".time");
 var mainEl = document.getElementById("main");
-var secondsLeft = 31;
+var secondsLeft = 16;
 function setTime() {
 var timerInterval = setInterval(function() {
     secondsLeft--;
