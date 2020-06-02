@@ -132,8 +132,7 @@ const questions = [
     }
     function sendMessage() {
         timeEl.textContent = "Time\'s Up! ";
-        //var text = document.createText("");
-        //mainEl.appendChild(createText);
+
     }
     setTime();
 
