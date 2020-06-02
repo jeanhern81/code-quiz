@@ -8,26 +8,26 @@
     <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
     <!--My custom stylesheet-->
     <link rel="stylesheet" href="assets/css/style.css">
-    <!--my javascript-->
-    <script defer src="assets/javascript/script.js"></script>
+
     <title>Code Quiz</title>
 </head>
 
 <body>
 
     
-
+<!--Nav Bar with instructions-->
     <div class="container-nav">
         <nav class="navbar fixed-top navbar-expand-lg navbar-light bg-light">
-        <a class="navbar-brand">You have about 15 seconds to answer 3 questions. The correct answer is indicated when the button turns green.  </a>
+        <a class="navbar-brand">You have 15 seconds to answer 3 questions.</a>
         
         </nav>
     </div>
-
-
+<!--Container on main body-->
     <div class="container">
+        <!--timmer-->
         <h1 class="time"></h1>
         <div id="main"></div>
+        <!--Question with 4 button to select from-->
         <div id="question-container" class="hide">
             <div id="question">Question</div>
                 <div id="answer-buttons" class="btn-grid">
@@ -37,6 +37,7 @@
                         <button class="btn">Answer 4</button>
                 </div>
         </div>
+        <!--start button and next button-->
         <div class="controls">
             <button id="start-btn" class ="start-btn btn">Start</button>
             <button id="next-btn" class ="next-btn btn hide">Next</button>
@@ -52,5 +53,8 @@
             <a class="navbar-brand" href="#">2020</a>
         </nav>
     </footer>
+
+        <!--my javascript-->
+        <script defer src="assets/javascript/script.js"></script>
 </body>   
 </html>
