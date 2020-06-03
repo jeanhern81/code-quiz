@@ -1,91 +1,82 @@
-
-*, *::before; *::after; {
-    box-sizing: border-box;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+/* nav bar */
+.right {
+    float: right;
 }
 
-:root {
-    --hue-neutral: 180;
-    --hue-wrong: 0;
-    --hue-correct: 135;
+.left {
+    float: left;
 }
 
+#nav {
+    display: block;
+    background-color: rgb(255, 242, 242);
+    display: inline-block;
+    width: 98vw;
+    border: 1px dashed black;
+    border-radius: 5px;
+    margin: 10px
+    
+}
 
 /* body */
+
+.container {
+    width: 800px;
+    max-width: 80%;
+    background: white;
+    border-radius: 15px;
+    box-shadow: 0 0 10px 2px;
+    margin: auto;
+    margin-top: 20px;
+    width: 50%;
+    border: 3px solid;
+    padding: 10px;
+
+}
+
 body {
-    --hue: var(--hue-neutral);
-    padding: 0;
-    margin: 0;
-    display: flex;
+    font-family: 'Roboto Slab', arial;
+    padding: 0%;
+    margin: 0%;
+    background-color: #80ced1;
     width: 100vw;
     height: 100vh;
+    display: ;
     justify-content: center;
     align-items: center;
-    background-color: hsl(var(--hue-neutral), 100%, 35%);
+    
 }
 
-body.correct {
-    --hue: var(--hue-correct);
+#quizBody {
+    text-align: center;
+    padding: 12vh;
 }
 
-body.wrong {
-    --hue: var(--hue-wrong);
+h4 {
+    padding: 10px 8px 10px 8px;
 }
 
-.container {
-    width: 800px;
-    max-width: 80%;
-    background: white;
-    border-radius: 15px;
-    padding: 10px;
-    box-shadow: 0 0 10px 2px;
+a {
+    text-decoration: none;
+    color: black;
 }
 
-
-.container {
-    width: 800px;
-    max-width: 80%;
-    background: white;
-    border-radius: 15px;
-    padding: 10px;
-    box-shadow: 0 0 10px 2px;
+button {
+    border: none;
+    background-color:teal;
+    color: white;
+    border-radius: 5px;
+    padding: 10px 16px 10px 16px;
+    font-size: 17px;
+    font-family: 'Roboto Slab', arial;
+    margin: 4px;
 }
 
-.btn-grid {
-    display: grid;
-    grid-template-columns: repeat(2, auto);
-    gap: 10px;
-    margin: 20px 0;
+button:hover {
+    transition-duration: 0.4s;
+    background-color: rgb(208, 211, 171);
 }
 
-.btn {
-    --hue: var(--hue-neutral);
-    border: 1px solid;
-    background-color: hsl(var(--hue), 100%, 45%);
-
-}
-
-.btn.correct {
-    --hue: var(--hue-correct);
-}
-
-.btn.wrong {
-    --hue: var(--hue-wrong);
-}
-
-.start-btn, .next-btn {
-    font-size: 1.5rem;
-    padding: 10px;
-    justify-content: center;
-
-}
-
-.controls {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.hide {
-    display: none;
+#quiz {
+    text-align: center;
 }

@@ -13,11 +13,11 @@ Website: https://jeanhern81.github.io/code-quiz/
 ---
 Instructions:
 
-You have 11 seconds to answer 3 questions before your time is up. Your selected button will turn either red or green to indicate whether or not you got the correct answer.
-
-
+- Press start to begin.
+- You have 75 seconds to answer 5 questions.
+- Answering the answer incorrectly will doc  you points. 
 
 ---
 Technologies Used:
 
-HTML, CSS, Bootstrap, JavaScript
+HTML, CSS, JavaScript
