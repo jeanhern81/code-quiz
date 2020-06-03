@@ -20,7 +20,9 @@ Instructions:
 ---
 Technologies Used:
 
-HTML, CSS, JavaScript
+- HTML, 
+- CSS, 
+- JavaScript
 
 ---
 Additional Information:
