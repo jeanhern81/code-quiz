@@ -3,7 +3,7 @@ Title: Web API's Code Quiz
 
 Created By: Jeanette Hernandez
 
-Date: May 29, 2020
+Date: June 2, 2020
 
 Website: https://jeanhern81.github.io/code-quiz/
 ---
@@ -21,3 +21,9 @@ Instructions:
 Technologies Used:
 
 HTML, CSS, JavaScript
+
+---
+Additional Information:
+
+- Code Validation through W3C Code Validators to check for syntax errors on the  HTML and CSS docs.
+---
